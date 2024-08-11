@@ -1,8 +1,8 @@
-Flask==2.3.3
-wikipedia-api==0.5.8
-requests==2.31.0
-sympy==1.12
-ecapture==0.1.1
-bottle==0.12.25
-bottle-websocket==0.2.9
-gevent==23.9.0
+Flask
+wikipedia-api
+requests
+sympy
+ecapture
+bottle
+bottle-websocket
+gevent
