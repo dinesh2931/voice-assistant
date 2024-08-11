@@ -5,11 +5,11 @@ app = Bottle()
 
 @app.route('/')
 def index():
-    return static_file('index.html', root='./web')
+    return static_file('index.html')
 
 @app.route('/<filename:path>')
 def send_static(filename):
-    return static_file(filename, root='./web')
+    return static_file(filename)
 
 @app.route('/websocket', apply=[websocket])
 def echo(ws):
