@@ -6,3 +6,4 @@ ecapture
 bottle
 bottle-websocket
 gevent
+gunicorn
